@@ -31,7 +31,7 @@ print(" * Loading Keras model...")
 get_model()
 
 
-@app.route("/", methods=["POST"])
+@app.route("/", methods=["GET"])
 def predict():
     message = request.get_json(force=True)
     print(message)
@@ -79,4 +79,4 @@ if __name__ == "__main__":
     print(("* Loading Keras model and Flask starting server..."
 "please wait until server has fully started"))
     
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
