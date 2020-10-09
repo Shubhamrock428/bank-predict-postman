@@ -165,9 +165,6 @@ python-status==1.0.1
 pytoml==0.1.21
 pyttsx3==2.7
 pytz==2018.9
-pywin32==225
-pywin32-ctypes==0.2.0
-pywinpty==0.5.7
 PyYAML==3.13
 pyzmq==18.0.1
 qtconsole==4.6.0
