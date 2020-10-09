@@ -79,4 +79,4 @@ if __name__ == "__main__":
     print(("* Loading Keras model and Flask starting server..."
 "please wait until server has fully started"))
     
-    app.run(debug=True, port=5000)
+    app.run(debug=True)
