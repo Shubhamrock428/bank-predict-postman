@@ -31,7 +31,7 @@ print(" * Loading Keras model...")
 get_model()
 
 
-@app.route("/predict", methods=["POST"])
+@app.route("/", methods=["POST"])
 def predict():
     message = request.get_json(force=True)
     print(message)
