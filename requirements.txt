@@ -36,15 +36,11 @@ detect==2019.4.13
 dialogflow==0.7.2
 distlib==0.3.0
 Django==2.1.7
-dlib==19.16.0
 dnspython==1.16.0
 docutils==0.15.2
 entrypoints==0.3
 et-xmlfile==1.0.1
 eventlet==0.25.1
-excel2json-3==0.1.6
-face-recognition==1.2.3
-face-recognition-models==0.3.0
 feedparser==5.2.1
 filelock==3.0.12
 fire==0.1.3
